@@ -9,7 +9,7 @@ name = input('please enter the username\n:>')
 
 options = webdriver.ChromeOptions() 
 options.add_argument("user-data-dir=C:\\Users\\shara\\AppData\\Local\\Google\\Chrome\\User Data\\Mr Noob") #Path to your chrome profile
-# options.add_argument("--headless")
+options.add_argument("--headless")
 browser = webdriver.Chrome( chrome_options=options)
 num = 1
 l = []
